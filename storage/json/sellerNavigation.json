@@ -1,0 +1,134 @@
+{
+  "Dashboard": {
+    "name": "Dashboard",
+    "url": "/seller/dashboard",
+    "class": "fa fa-file-text-o",
+    "permission": "seller.dashboard.view",
+    "Child": []
+  },
+  "Invoices": {
+    "name": "",
+    "url": "/seller/invoice",
+    "class": "fa fa-file-text-o",
+    "permission": "seller.invoice.view",
+    "Child": [
+      {
+        "name": "Invoices",
+        "url": "/seller/invoice",
+        "permission": "seller.invoice.view"
+      },
+      {
+        "name": "Create Invoices",
+        "url": "/seller/invoice/add",
+        "permission": "seller.invoice.add"
+      },
+      {
+        "name": "Payment Instructions",
+        "url": "/seller/piListing",
+        "permission": "seller.piListing.view"
+      }
+    ]
+  },
+  "Purchase Order": {
+    "name": "Purchase Order",
+    "url": "/seller/poListing",
+    "class": "fa fa-file-text-o",
+    "permission": "seller.poListing.view",
+    "Child": [
+      {
+        "name": "Purchase Order",
+        "url": "/seller/poListing",
+        "permission": "seller.poListing.view"
+      }
+    ]
+  },
+  "Cash Planner": {
+    "name": "Cash Planner",
+    "url": "/seller/iDiscounting",
+    "class": "fa fa-tag",
+    "permission": "seller.iDiscounting.view",
+    "Child": [
+      {
+        "name": "Cash Planner",
+        "url": "/seller/iDiscounting",
+        "permission": "seller.iDiscounting.view"
+      },
+      {
+        "name": "Discounting Requests",
+        "url": "/seller/discountingRequest",
+        "permission": "seller.discountingRequestListing.view"
+      }
+    ]
+  },
+  "Payments": {
+    "name": "Payments",
+    "url": "/seller/remittances",
+    "class": "fa fa-credit-card",
+    "permission": "seller.remittances.view",
+    "Child": [
+      {
+        "name": "Remittances",
+        "url": "/seller/remittances",
+        "permission": "seller.remittances.view"
+      }
+    ]
+  },
+  "Reports": {
+    "name": "Payments",
+    "url": "/seller/inwardRemittanceReport",
+    "class": "fa fa-pencil-square-o",
+    "permission": "seller.reports.inwardRemittanceReportListing.view",
+    "Child": [
+      {
+        "name": "Inward Remittance Report",
+        "url": "/seller/inwardRemittanceReport",
+        "permission": "seller.reports.inwardRemittanceReportListing.view"
+      },
+      {
+        "name": "Discounting Usage Report",
+        "url": "/seller/discountingUsageReport",
+        "permission": "seller.reports.sellerDiscountingUsageReportListing.view"
+      },
+      {
+        "name": "Seller Discounting Report",
+        "url": "/seller/discountingReport",
+        "permission": "seller.reports.sellerDiscountingReportListing.view"
+      }
+    ]
+  },
+  "Configurations": {
+    "name": "Payments",
+    "url": "/seller/sellerConfiguration",
+    "class": "fa fa-cog",
+    "permission": "seller.sellerConfiguration.view",
+    "Child": [
+      {
+        "name": "Configurations",
+        "url": "/seller/sellerConfiguration",
+        "permission": "seller.sellerConfiguration.view"
+      },
+      {
+        "name": "Auto Discounting",
+        "url": "#",
+        "permission": ""
+      },
+      {
+        "name": "Masters",
+        "url": "/seller/user",
+        "permission": "seller.user.view",
+        "subChild": [
+          {
+            "name": "Seller Users",
+            "url": "/seller/user",
+            "permission": "seller.user.view"
+          },
+          {
+            "name": "Seller Roles",
+            "url": "/seller/role",
+            "permission": "seller.role.view"
+          }
+        ]
+      }
+    ]
+  }
+}

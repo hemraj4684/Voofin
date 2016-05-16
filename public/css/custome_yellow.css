@@ -1,0 +1,43 @@
+header .logo { width: 155px; height: 80px; margin: 10px 0 0 0; float: left; background: url(/public/img/estern_bank.jpg) no-repeat !important;} 
+.sub-nav{ background: #FAA61A!important;}
+.sub-nav li .heading{color: #000!important;}
+.widget .widget-header{background: #FAA61A!important;}
+.widget .widget-header .title{color: #222!important;}
+.mini-widget .mini-widget-heading{background: #FAA61A!important;}
+.mini-widget .mini-widget-heading{color: #222!important;}
+.mini-widget .mini-widget-body i {color: #005BAB!important;}
+footer { background: #FAA61A!important;}
+footer p{color: #000!important;}
+.link_A_blue{color: #005BAB!important;}
+#cssmenu > ul > li:hover{ background: #005BAB!important;}
+#cssmenu ul ul li{ background: #005BAB!important;}
+#cssmenu li:hover > ul > li:hover {background: #004B91!important;}
+#cssmenu > ul > li.active{ background: #005BAB!important;}
+.btn-primary{ background: #005BAB!important; border-color:#02396c!important;}
+.btn-primary:hover{ background: #02396c!important; border-color:#02396c!important;}
+.btn-info{ background: #005BAB!important; border-color:#02396c!important;}
+.btn-info:hover{ background: #02396c!important; border-color:#02396c!important;}
+.daterangepicker .ranges li.active, .daterangepicker .ranges li:hover { background: #005BAB!important; border: 1px solid #02396c!important; color: #fff!important;}
+.daterangepicker .ranges li {color: #005BAB!important;}
+.daterangepicker .input-mini.active{border-color:#02396c!important;}
+.daterangepicker td.active, .daterangepicker td.active:hover{ background: #005BAB!important;}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {background: #005BAB!important;}
+.btn-danger{ background: #005BAB!important; border-color:#02396c!important;}
+.btn-danger:hover{ background: #02396c!important; border-color:#02396c!important;}
+.widget .widget-header .title .attribution a, .widget .widget-header .title .mini-title a{color: #fff!important;}
+ul#mini-nav .dropdown-menu{border-top: 3px solid #FAA61A!important;}
+ul#mini-nav .dropdown-menu:before{border-bottom: 7px solid #FAA61A!important;}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{background: #005BAB!important; border-color: #005BAB!important;}
+.pagination>li>a, .pagination>li>span{color: #005BAB;}
+
+@media (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), not all, not all, not all, only screen and (max-width: 1024px) and (min-resolution: 192dpi), only screen and (max-width: 1024px) and (min-resolution: 2dppx){
+#cssmenu {background-color: #FAA61A!important;}}
+
+@media (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), not all, not all, not all, only screen and (max-width: 1024px) and (min-resolution: 192dpi), only screen and (max-width: 1024px) and (min-resolution: 2dppx){
+#cssmenu #menu-button { color: #000!important; }}
+
+@media (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), not all, not all, not all, only screen and (max-width: 1024px) and (min-resolution: 192dpi), only screen and (max-width: 1024px) and (min-resolution: 2dppx){
+#cssmenu #menu-button:before{ background: #000!important; }}
+
+@media (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), not all, not all, not all, only screen and (max-width: 1024px) and (min-resolution: 192dpi), only screen and (max-width: 1024px) and (min-resolution: 2dppx){
+#cssmenu #menu-button:after {border-top: 2px solid #000!important;border-bottom: 2px solid #000!important;}}

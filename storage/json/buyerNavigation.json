@@ -1,0 +1,116 @@
+{
+  "Dashboard": {
+    "name": "Dashboard",
+    "url": "/buyer/dashboard",
+    "class": "fa fa-file-text-o",
+    "permission": "buyer.dashboard.view",
+    "Child": []
+  },
+  "Purchase Order": {
+    "name": "Purchase Orders",
+    "url": "/buyer/po",
+    "class": "fa fa-file-text-o",
+    "permission": "buyer.poListing.view",
+    "Child": [
+      {
+        "name": "Purchase Orders",
+        "url": "/buyer/po",
+        "permission": "buyer.poListing.view"
+      },
+      {
+        "name": "Create PO",
+        "url": "/buyer/po/add",
+        "permission": "buyer.po.add"
+      }
+    ]
+  },
+  "Invoices": {
+    "name": "Invoices",
+    "url": "/buyer/invoice",
+    "class": "fa fa-file-text-o",
+    "permission": "buyer.invoice.view",
+    "Child": [
+      {
+        "name": "Invoices",
+        "url": "/buyer/invoice",
+        "permission": "buyer.invoice.view"
+      },
+      {
+        "name": "Payment Instructions",
+        "url": "/buyer/piListing",
+        "permission": "buyer.piListing.view"
+      }
+    ]
+  },
+  "Payments": {
+    "name": "Payments",
+    "url": "/buyer/remittances",
+    "class": "fa fa-credit-card",
+    "permission": "buyer.remittances.view",
+    "Child": [
+      {
+        "name": "Remittances",
+        "url": "/buyer/remittances",
+        "permission": "buyer.remittances.view"
+      }
+    ]
+  },
+  "Reports": {
+    "name": "Reports",
+    "url": "#",
+    "class": "fa fa-pencil-square-o",
+    "permission": "",
+    "Child": [
+      {
+        "name": "Buyer PI Report",
+        "url": "/buyer/buyerPIReport",
+        "permission": "buyer.reports.piReportListing.view"
+      },
+      {
+        "name": "Discounting Usage Report",
+        "url": "/buyer/discountingUsageReport",
+        "permission": "buyer.reports.discountingUsageReportListing.view"
+      },
+      {
+        "name": "Buyer Limit Utilization",
+        "url": "/buyer/buyerLimitUtilization",
+        "permission": "buyer.reports.limitUtilizationListing.view"
+      }
+    ]
+  },
+  "Configurations": {
+    "name": "Configurations",
+    "url": "/buyer/buyerConfiguration",
+    "class": "fa fa-cog",
+    "permission": "buyer.buyerConfiguration.view",
+    "Child": [
+      {
+        "name": "Configurations",
+        "url": "/buyer/buyerConfiguration",
+        "permission": "buyer.buyerConfiguration.view"
+      },
+      {
+        "name": "Seller Setting",
+        "url": "/buyer/sellerSetting",
+        "permission": "buyer.buyerConfiguration.sellerSetting"
+      },
+      {
+        "name": "Masters",
+        "url": "",
+        "permission": "",
+        "subChild": [
+          {
+            "name": "Buyer Users",
+            "url": "/buyer/user",
+            "permission": "buyer.user.view"
+          },
+          {
+            "permission": "buyer.role.view",
+            "url": "/buyer/role",
+            "name": "Buyer Roles"
+          }
+        ]
+      }
+    ]
+  }
+}

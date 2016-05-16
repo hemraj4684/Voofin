@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geometric</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="Blue Moon - Responsive Admin Dashboard" />
+    <meta name="keywords" content="Notifications, Admin, Dashboard, Bootstrap3, Sass, transform, CSS3, HTML5, Web design, UI Design, Responsive Dashboard, Responsive Admin, Admin Theme, Best Admin UI, Bootstrap Theme, Wrapbootstrap, Bootstrap, bootstrap.gallery" />
+    <meta name="author" content="Bootstrap Gallery" />
+    <link rel="shortcut icon" href="img/favicon.ico">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/new.css" rel="stylesheet">
+	<link href="css/pricing.css" rel="stylesheet">
+	<link href="css/jquery.dataTables.min.css" rel="stylesheet">
+    <!-- Important. For Theming change primary-color variable in main.css  -->
+
+    <link href="fonts/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+	.none {display:none;}
+	</style>
+  </head>
+
+  <body>
+
+    <!-- Header Start -->
+    <header>
+      <a href="#" class="logo">
+        <img src="img/logo.png" alt="Logo"/>
+      </a>
+
+      <div class="pull-right">
+        <ul id="mini-nav" class="clearfix">
+          <li class="list-box hidden-xs">
+            <a href="#">
+              <span class="text-white">Welcome Mr. xyz</span> <br>
+              <span class="text-white">Company Name</span>
+              </i>
+            </a>
+
+          </li>
+          <a id="drop7" href="#" role="button" class="dropdown-toggle user-avtar" data-toggle="dropdown">
+            <img src="img/user5.png" alt="Bluemoon User">
+          </a>
+          <ul class="dropdown-menu server-activity">
+            <li>
+              <p><i class="fa fa-cog text-info"></i> Account Settings</p>
+            </li>
+            <li>
+              <p><i class="fa fa-fire text-warning"></i> Payment Details</p>
+            </li>
+            <li>
+              <div class="demo-btn-group clearfix">
+                <a href="#" data-original-title="" title="">
+                  <i class="fa fa-facebook fa-lg icon-rounded info-bg"></i>
+                </a>
+                <a href="#" data-original-title="" title="">
+                  <i class="fa fa-twitter fa-lg icon-rounded twitter-bg"></i>
+                </a>
+                <a href="#" data-original-title="" title="">
+                  <i class="fa fa-linkedin fa-lg icon-rounded linkedin-bg"></i>
+                </a>
+                <a href="#" data-original-title="" title="">
+                  <i class="fa fa-pinterest fa-lg icon-rounded danger-bg"></i>
+                </a>
+                <a href="#" data-original-title="" title="">
+                  <i class="fa fa-google-plus fa-lg icon-rounded success-bg"></i>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="demo-btn-group clearfix">
+                <button href="#" class="btn btn-danger">
+                  Logout
+                </button>
+              </div>
+            </li>
+          </ul>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Container start -->
+    <div class="dashboard-container pullbox_rel">
+
+	<!-------- BODY TOGGLE START------>	
+		<div class="pullbox"> 
+			<div class="pullbtn"><i class="fa fa-link"></i> Quick Links</div>
+			<ul>
+			<li><a href="#"><i class="fa fa-file-text-o"></i> My Invoice</a></li>
+			<li><a href="#"><i class="fa fa-credit-card"></i> My Payments</a></li>
+			<li><a href="#"><i class="fa fa-pencil-square-o"></i> Create Invoice</a></li>
+			<li><a href="#"><i class="fa fa-money"></i> Cash Planner</a></li>
+			<li><a href="#"><i class="fa fa-link"></i> My POS</a></li>
+		  </ul>
+		</div>
+	<!-------- BODY TOGGLE END------>
+
+      <div class="container">
+        <!-- Top Nav Start -->
+        <div id='cssmenu'>
+          <ul>
+            <li style="width:200px;"><a href='#'> <i class="fa fa-file-text-o"></i> Portfolio Management</a>
+			  <ul>
+                <li><a href='discounting_requests.html'>Discounting Requests</a></li>
+              </ul>
+			</li>					
+            			
+            <li><a href='#'><i class="fa fa-pencil-square-o"></i>Reports</a></li>
+			
+			<li class='active'><a href='#'><i class="fa fa-cog"></i>Configurations</a>
+              <ul>
+                <li><a href='bank_configurations.html'>Configurations</a></li>
+				<li><a href='#'>Users</a></li>			
+				<li><a href='bank_band_mapping.html'>Band Mapping</a></li>
+				<li><a href='bank_revenue_sharing.html'>Revenue Sharing</a></li>
+				<li><a href='bank_funding_limits.html'>Funding Limits</a></li>
+				<li class="has-sub"><span class="submenu-button"></span><a href="#" data-original-title="" title="">Masters</a>
+				  <ul>
+					<li><a href='bank_band_master.html'>Band Master</a></li>
+					<li><a href='bank_country.html'>Country / State</a></li>					
+                  </ul> 
+				</li>
+              </ul>
+            </li>			
+			<li><a href='#'><i class="fa fa-user"></i>Buyers / Seller</a></li>
+          </ul>
+        </div>
+        <!-- Top Nav End -->
+
+        <!-- Sub Nav End -->
+        <div class="sub-nav hidden-sm hidden-xs">
+          <ul>
+            <li><a href="" class="heading"> COUNTRY</a></li>
+          </ul>
+          <div class="pull-right" style="margin: 0 20px 0 0;">
+            <button type="submit" class="btn btn-info" data-toggle="modal" data-target="#add_country">Add Country</button>
+          </div>
+        </div>
+        <!-- Sub Nav End -->
+
+        <!-- Dashboard Wrapper Start -->
+			<div class="dashboard-wrapper">
+
+				<!-- Row Start -->
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <div class="widget">
+                  <div class="widget-header">
+                    <div class="title">
+                      Country List
+                    </div>
+                    <span class="tools">
+                      <i class="fa fa-cogs"></i>
+                    </span>
+                  </div>
+                  <div class="widget-body">
+                   
+
+                    <div class="table-responsive">
+                      <table  id="example" class="display table table-condensed table-striped table-bordered table-hover no-margin">
+						<thead>
+                          <tr>
+							<th width="10%">No.</th>
+                            <th>Country Name</th>   
+                            <th width="30%">Action</th>														
+                          </tr>						  
+						</thead>
+						
+						
+                        <tbody>
+						
+                          <tr>
+						    <td>
+                              1
+                            </td>
+							<td>
+                              <a href="bank_state.html" class="link_A_blue">India</a>
+                            </td>							
+							<td class="hidden-phone">
+                              <a href="#" class="btn btn-warning btn-xs" title="" data-original-title="Edit">
+                                <i class="fa fa-pencil"></i>
+                              </a> 
+                              <a href="#" class="btn btn-danger btn-xs" title="" data-original-title="Delete">
+                                <i class="fa fa fa-trash-o"></i>
+                              </a>							  
+                            </td>							 							
+                          </tr>
+						  
+                          <tr>
+						    <td>
+                              2
+                            </td>
+							<td>
+                              Afghanistan	
+                            </td>							
+							<td class="hidden-phone">
+                              <a href="#" class="btn btn-warning btn-xs" title="" data-original-title="Edit">
+                                <i class="fa fa-pencil"></i>
+                              </a> 
+                              <a href="#" class="btn btn-danger btn-xs" title="" data-original-title="Delete">
+                                <i class="fa fa fa-trash-o"></i>
+                              </a>							  
+                            </td>							 							
+                          </tr>
+						  
+                          <tr>
+						    <td>
+                              3
+                            </td>
+							<td>
+                              Albanie	
+                            </td>							
+							<td class="hidden-phone">
+                              <a href="#" class="btn btn-warning btn-xs" title="" data-original-title="Edit">
+                                <i class="fa fa-pencil"></i>
+                              </a> 
+                              <a href="#" class="btn btn-danger btn-xs" title="" data-original-title="Delete">
+                                <i class="fa fa fa-trash-o"></i>
+                              </a>							  
+                            </td>							 							
+                          </tr>
+						  
+                          <tr>
+						    <td>
+                              4
+                            </td>
+							<td>
+                              Algérie
+                            </td>							
+							<td class="hidden-phone">
+                              <a href="#" class="btn btn-warning btn-xs" title="" data-original-title="Edit">
+                                <i class="fa fa-pencil"></i>
+                              </a> 
+                              <a href="#" class="btn btn-danger btn-xs" title="" data-original-title="Delete">
+                                <i class="fa fa fa-trash-o"></i>
+                              </a>							  
+                            </td>							 							
+                          </tr>
+						  
+                          <tr>
+						    <td>
+                              5
+                            </td>
+							<td>
+                              France	
+                            </td>							
+							<td class="hidden-phone">
+                              <a href="#" class="btn btn-warning btn-xs" title="" data-original-title="Edit">
+                                <i class="fa fa-pencil"></i>
+                              </a> 
+                              <a href="#" class="btn btn-danger btn-xs" title="" data-original-title="Delete">
+                                <i class="fa fa fa-trash-o"></i>
+                              </a>							  
+                            </td>							 							
+                          </tr>
+						  
+                          <tr>
+						    <td>
+                              6
+                            </td>
+							<td>
+                              Grèce	
+                            </td>							
+							<td class="hidden-phone">
+                              <a href="#" class="btn btn-warning btn-xs" title="" data-original-title="Edit">
+                                <i class="fa fa-pencil"></i>
+                              </a> 
+                              <a href="#" class="btn btn-danger btn-xs" title="" data-original-title="Delete">
+                                <i class="fa fa fa-trash-o"></i>
+                              </a>							  
+                            </td>							 							
+                          </tr>
+						  
+                          <tr>
+						    <td>
+                              7
+                            </td>
+							<td>
+                              Hong-Kong	
+                            </td>							
+							<td class="hidden-phone">
+                              <a href="#" class="btn btn-warning btn-xs" title="" data-original-title="Edit">
+                                <i class="fa fa-pencil"></i>
+                              </a> 
+                              <a href="#" class="btn btn-danger btn-xs" title="" data-original-title="Delete">
+                                <i class="fa fa fa-trash-o"></i>
+                              </a>							  
+                            </td>							 							
+                          </tr>
+						  
+                          <tr>
+						    <td>
+                              8
+                            </td>
+							<td>
+                              Kenya
+                            </td>							
+							<td class="hidden-phone">
+                              <a href="#" class="btn btn-warning btn-xs" title="" data-original-title="Edit">
+                                <i class="fa fa-pencil"></i>
+                              </a> 
+                              <a href="#" class="btn btn-danger btn-xs" title="" data-original-title="Delete">
+                                <i class="fa fa fa-trash-o"></i>
+                              </a>							  
+                            </td>							 							
+                          </tr>
+						  
+                          <tr>
+						    <td>
+                              9
+                            </td>
+							<td>
+                              Qatar
+                            </td>							
+							<td class="hidden-phone">
+                              <a href="#" class="btn btn-warning btn-xs" title="" data-original-title="Edit">
+                                <i class="fa fa-pencil"></i>
+                              </a> 
+                              <a href="#" class="btn btn-danger btn-xs" title="" data-original-title="Delete">
+                                <i class="fa fa fa-trash-o"></i>
+                              </a>							  
+                            </td>							 							
+                          </tr>
+						  
+                          <tr>
+						    <td>
+                              10
+                            </td>
+							<td>
+                              Zimbabwe
+                            </td>							
+							<td class="hidden-phone">
+                              <a href="#" class="btn btn-warning btn-xs" title="" data-original-title="Edit">
+                                <i class="fa fa-pencil"></i>
+                              </a> 
+                              <a href="#" class="btn btn-danger btn-xs" title="" data-original-title="Delete">
+                                <i class="fa fa fa-trash-o"></i>
+                              </a>							  
+                            </td>							 							
+                          </tr>
+						                          
+						  
+                        </tbody>
+                      </table>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Row End -->		
+			
+			</div>
+			
+        <!-- Dashboard Wrapper End -->
+
+        <footer>
+          <p>© Geometric 2015</p>
+        </footer>
+
+      </div>
+    </div>
+    <!-- Main Container end -->
+
+<!-- Add Country Modal Start-->
+<div class="modal fade" id="add_country" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Add Country</h4>
+      </div>
+	  <form action="#">
+      <div class="modal-body">
+        <input type="text" class="form-control " name="po_no" placeholder="Country Name">
+		      </div>
+      <div class="modal-footer">        
+        <button type="button" class="btn btn-primary">Save</button>
+      </div
+	  </form>
+    </div>
+  </div>
+</div>
+<!-- Add Country Modal End-->
+	
+    <script src="js/jquery.js"></script>
+	
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.scrollUp.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+	<script src="js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript">
+		// Setup - add a text input to each footer cell
+		$('#example thead tr#filterrow th').each( function () {
+		var title = $('#example thead th').eq( $(this).index() ).text();
+		$(this).html( '<input type="text" onclick="stopPropagation(event);" class="form-control" placeholder="Search '+title+'" />' );
+		} );
+
+		// DataTable
+		var table = $('#example').DataTable( {
+		orderCellsTop: true
+			
+		} );
+
+		// Apply the filter
+		$("#example thead input").on( 'keyup change', function () {
+		table
+			.column( $(this).parent().index()+':visible' )
+			.search( this.value )
+			.draw();
+		} );
+
+		function stopPropagation(evt) {
+		if (evt.stopPropagation !== undefined) {
+			evt.stopPropagation();
+		} else {
+			evt.cancelBubble = true;
+		}
+		}
+	</script>
+	<script>
+		$(':radio').change(function (event) {
+			var id = $(this).data('id');
+			$('#' + id).addClass('none').siblings().removeClass('none');
+		});
+	</script>
+	
+    <script type="text/javascript">
+      //ScrollUp
+      $(function () {
+        $.scrollUp({
+          scrollName: 'scrollUp', // Element ID
+          topDistance: '300', // Distance from top before showing element (px)
+          topSpeed: 300, // Speed back to top (ms)
+          animation: 'fade', // Fade, slide, none
+          animationInSpeed: 400, // Animation in speed (ms)
+          animationOutSpeed: 400, // Animation out speed (ms)
+          scrollText: 'Top', // Text for element
+          activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+        });
+      });
+
+      //Tooltip
+      $('a').tooltip('hide');
+
+      //Popover
+      $('.popover-pop').popover('hide');
+
+      //Dropdown
+      $('.dropdown-toggle').dropdown();
+
+    </script>
+
+<!-------- BODY TOGGLE JS START------>	
+	<script type="text/javascript">
+		$('.dropdown-toggle').dropdown();
+		$('.pullbtn').click(function(){
+		$('.pullbox').toggleClass('active');
+		});	
+	</script>
+<!-------- BODY TOGGLE JS END------>
+	
+  </body>
+</html>

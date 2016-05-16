@@ -1,0 +1,29 @@
+header .logo { width: 155px; height: 80px; margin: 10px 0 0 0; float: left; background: url(/public/img/dhaka_bank.jpg) no-repeat !important;} 
+.sub-nav{ background: #164582!important;}
+.widget .widget-header{ background: #164582!important;}
+.mini-widget .mini-widget-heading{ background: #164582!important;}
+.mini-widget .mini-widget-body i {color: #164582!important;}
+footer { background: #164582!important;}
+.link_A_blue{color: #164582!important;}
+#cssmenu > ul > li:hover{ background: #164582!important;}
+#cssmenu ul ul li{ background: #164582!important;}
+#cssmenu li:hover > ul > li:hover {background: #0F315E!important;}
+#cssmenu > ul > li.active{ background: #164582!important;}
+.btn-primary{ background: #2E5795!important; border-color:#02396c!important;}
+.btn-primary:hover{ background: #0F315E!important; border-color:#02396c!important;}
+.btn-info{ background: #2E5795!important; border-color:#02396c!important;}
+.btn-info:hover{ background: #0F315E!important; border-color:#02396c!important;}
+.daterangepicker .ranges li.active, .daterangepicker .ranges li:hover { background: #164582!important; border: 1px solid #02396c!important; color: #fff!important;}
+.daterangepicker .ranges li {color: #164582!important;}
+.daterangepicker .input-mini.active{border-color:#164582!important;}
+.daterangepicker td.active, .daterangepicker td.active:hover{ background: #164582!important;}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {background: #164582!important;}
+.btn-danger{ background: #2E5795!important; border-color:#02396c!important;}
+.btn-danger.active, .btn-danger.focus, .btn-danger:active, .btn-danger:focus, .btn-danger:hover, .open>.dropdown-toggle.btn-danger{background: #0F315E!important;}
+ul#mini-nav .dropdown-menu{border-top: 3px solid #164582!important;}
+ul#mini-nav .dropdown-menu:before{border-bottom: 7px solid #164582!important;}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{background: #164582!important; border-color: #164582!important;}
+.pagination>li>a, .pagination>li>span{color: #164582;}
+
+@media (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), not all, not all, not all, only screen and (max-width: 1024px) and (min-resolution: 192dpi), only screen and (max-width: 1024px) and (min-resolution: 2dppx){
+#cssmenu {background-color: #164582!important;}}

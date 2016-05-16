@@ -1,0 +1,5 @@
+"Seller Name*","Invoice No","Net Invoice Amount","TDS percent (%)","TDS Amount","PI Amount*","Payment Date(dd/mm/yyyy)*","PI Number","Error Type"
+Navanitw,IN111222,15000000,10,268,20000000,25/05/16,PI00055,"Invalid Date"
+Navanit,IN111223,15000001,11,269,20000001,05/25/16,PI00056,"Invalid Date"
+Navanit,IN111224,15000002,12,270,20000002,27/05/16,PI00057,"Invalid Date"
+Navanit,IN111225,15000003,13,271,20000003,28/05/16,PI00058,"Invalid Date"
